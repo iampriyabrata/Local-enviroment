@@ -1,0 +1,58 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-color: #B0DAFF;
+}
+
+h1{
+    color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.paragraph{
+    font-size: large;
+    font-style: italic;
+    font-variant: normal;
+    font-size: 18pt;
+}
+
+.ullam{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+form{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: azure;
+    width: 50vw;
+    height: 60vh;
+}
+
+.textStuff{
+    width: 40vh;
+    display: flex;
+    place-self: center;
+}
+.submitButton{
+    width: 30vh;
+    display: flex;
+    place-self: center;
+}
